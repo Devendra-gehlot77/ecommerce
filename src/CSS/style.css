@@ -1,0 +1,1055 @@
+/* Product card hover effects */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Image styling */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Rating stars consistency */
+.fa-star,
+.fa-star-half-alt {
+  font-size: 14px;
+}
+
+/* Custom button hover effects */
+.btn-outline-primary:hover {
+  transform: scale(1.05);
+}
+
+/* Price slider styling */
+.form-range::-webkit-slider-thumb {
+  background: #0d6efd;
+}
+
+.form-range::-moz-range-thumb {
+  background: #0d6efd;
+}
+
+/* Footer links hover effect */
+footer a:hover {
+  color: #0d6efd !important;
+}
+
+/* Newsletter input focus */
+footer .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+
+.section-filter {
+  max-height: 510px;
+  overflow-y: scroll;
+}
+
+.pagination {
+  margin: 25px 0 0 0;
+  justify-content: center;
+
+}
+
+.pagination li a {
+  font-size: 25px;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.page-link {
+  font-size: 18px !important;
+}
+
+.no-product {
+  font-family: serif;
+  position: absolute;
+  left: 50px;
+  top: 30px; 
+  color: #6780E1;
+}
+
+.category-header {
+  background: #217AFC;
+}
+
+.header-inner {
+  font-size: 18px !important;
+}
+
+.home-heading {
+  color: #0d6efd;
+  font-family: serif;
+  font-size: 18px;
+
+
+}
+
+.Btn-home {
+  background-color: #0d6efd;
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid #0d6efd;
+  border-radius: 12px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+
+.text-justify{
+  text-align: start;
+  line-height: 180%;
+  font-size: 14px;
+}
+.heart-icon{
+  font-size: 22px;
+  align-self: center;
+}
+.cart-number{
+  font-size: 12px;
+}
+.cart-batch{
+  position: absolute;
+  top: -16px !important;
+  left: 0%;
+}
+.home-heading{
+  /* font-size: 25px; */
+  /* text-shadow: 0 5px 10px lightblue; */
+}
+
+.shopnow{
+  position: absolute;
+  top: 50.7%;
+  left: 16%;
+}
+
+.shopnow button{
+    background-color: #F88AB8;
+    color: white;
+    font-size: 25px;
+    border: none;
+    padding: 10px 80px;
+}
+
+.menShirtHeading{
+  background-color: #727272;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 10px;
+  /* text-align: center; */
+  box-shadow: 10px 2px 8px grey;
+}
+
+.shopnow button:hover{
+  background-color:#FEBFDB;
+  color: pink;
+}
+
+.exclusive-banner {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: white;
+  padding: 80px 20px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.exclusive-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.exclusive-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 25px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-slide-in {
+  animation: slideIn 1.2s ease-out forwards;
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+.wishlist-heading-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.wishlist-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #dc3545; /* Bootstrap danger color */
+}
+
+.wishlist-subtitle {
+  color: #6c757d;
+  font-size: 1.1rem;
+}
+
+
+.cart-heading-container {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+/* Heading Style */
+.cart-heading {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Subheading Style */
+.cart-subheading {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Animation Keyframes */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animation Classes */
+.animate-slide-in {
+  animation: slideIn 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1.2s ease-in forwards;
+}
+
+
+.contact-wrapper {
+  background: linear-gradient(to right, #ffffff, #f0f8ff);
+  padding: 80px 0;
+  min-height: 100vh;
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.contact-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  background: #ffffff;
+  border-radius: 16px;
+  animation: fadeIn 1.2s ease-in;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-left {
+  animation: slideLeft 1s ease-out;
+}
+
+.animate-right {
+  animation: slideRight 1s ease-out;
+}
+
+.shipping-wrapper {
+  background: linear-gradient(to right, #ffffff, #f8f9fa);
+  padding: 80px 0;
+  min-height: 100vh;
+}
+
+.shipping-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+
+.shipping-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.shipping-section {
+  margin-bottom: 30px;
+}
+
+.shipping-section h4 {
+  color: #343a40;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.shipping-section p, .shipping-section ul {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Animation Keyframes */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Animation Class */
+.animate-slide-in {
+  animation: slideIn 1s ease-out;
+}
+
+
+.exchange-return-page {
+  padding: 80px 0;
+  background: #f4f9ff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.page-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.page-subtext {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-top: 10px;
+}
+
+.policy-card {
+  background: #ffffff;
+  border: none;
+  border-radius: 18px;
+  transition: transform 0.3s ease;
+}
+
+.policy-card:hover {
+  transform: translateY(-6px);
+}
+
+.card-title {
+  color: #0d6efd;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.policy-card ul {
+  padding-left: 18px;
+  margin-top: 10px;
+}
+
+.policy-card li {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideLeft {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideRight {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.9); opacity: 0; }
+  60% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1.2s ease-in;
+}
+
+.animate-slide-left {
+  animation: slideLeft 1s ease;
+}
+
+.animate-slide-right {
+  animation: slideRight 1s ease;
+}
+
+.animate-bounce-in {
+  animation: bounceIn 1.2s ease-in-out;
+}
+
+.support-text {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+
+.faq-section {
+  padding: 80px 0;
+  background: linear-gradient(to right, #f5f9ff, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.faq-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.faq-subtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-top: 10px;
+}
+
+.faq-item {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.faq-item:hover {
+  transform: translateY(-4px);
+}
+
+.accordion-button {
+  background-color: #e7f1ff;
+  font-weight: 600;
+  color: #0d6efd;
+  border: none;
+  padding: 15px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #d0e8ff;
+  color: #0b5ed7;
+}
+
+.accordion-body {
+  background-color: #fdfdfe;
+  color: #333;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+.animate-slide-up {
+  animation: slideUp 1.2s ease-in-out;
+}
+
+
+/* Unique Continue Shopping Button Style */
+.continue-button {
+  display: inline-block;
+  background: linear-gradient(to right, #0d6efd, #6610f2);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.continue-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Continue Shopping Button Style */
+.continue-shopping-btn {
+  display: inline-block;
+  background: linear-gradient(to right, #0d6efd, #6610f2);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.continue-shopping-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.3);
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Continue Shopping Button */
+.continue-shopping-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  animation: pop-in 0.5s ease-in-out forwards;
+}
+
+.continue-shopping-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(32, 201, 151, 0.3);
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Optional Entrance Animation */
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+/* External CSS: ShippingPolicy.css */
+
+.continue-shopping-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: #fff;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(102, 16, 242, 0.3);
+  transition: all 0.3s ease-in-out;
+  animation: fadeInUp 0.7s ease-in-out;
+}
+
+.continue-shopping-btn:hover {
+  transform: scale(1.05) translateY(-3px);
+  text-decoration: none;
+  background: linear-gradient(135deg, #0056b3, #520dc2);
+}
+
+/* Smooth fade and slide animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* DiscountBanner.css */
+
+.discount-banner-wrapper {
+  background: linear-gradient(135deg, #f7971e, #ffd200);
+  padding: 60px 0;
+  position: relative;
+  overflow: hidden;
+  animation: fadeSlide 1s ease-out;
+}
+
+.discount-banner {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  animation: bounceIn 1.2s ease-in-out;
+}
+
+.discount-title {
+  font-size: 2.5rem;
+  color: #ff3d00;
+  font-weight: 700;
+}
+
+.discount-text {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  color: #333;
+}
+
+.discount-text span {
+  font-weight: bold;
+  color: #d81b60;
+  font-size: 1.5rem;
+}
+
+.discount-btn {
+  display: inline-block;
+  margin-top: 25px;
+  background-color: #ff4081;
+  color: white;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.discount-btn:hover {
+  transform: scale(1.05);
+  background-color: #c2185b;
+}
+
+/* Keyframe animations */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* External CSS for Animated Poster */
+
+.poster-wrapper {
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  padding: 100px 0;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.poster-box {
+  background: #fff;
+  padding: 50px 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  max-width: 700px;
+  margin: 0 auto;
+  animation: fadeSlideUp 1.2s ease-in-out;
+}
+
+.poster-heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.poster-subtext {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.poster-btn {
+  display: inline-block;
+  background: #e91e63;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.poster-btn:hover {
+  background: #c2185b;
+  transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* HotDealsBanner.css */
+
+.hot-deals-wrapper {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  padding: 80px 0;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.hot-deals-box {
+  background-color: #fff;
+  color: #ff3d00;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  max-width: 700px;
+  margin: 0 auto;
+  animation: slideFadeIn 1.2s ease;
+}
+
+.hot-deals-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #e91e63;
+}
+
+.hot-deals-text {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.hot-deals-btn {
+  display: inline-block;
+  background: #e91e63;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.hot-deals-btn:hover {
+  background-color: #c2185b;
+  transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pulse-animate {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(233, 30, 99, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(233, 30, 99, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(233, 30, 99, 0);
+  }
+}
+
+
+.poster-wrapper {
+  background: linear-gradient(to right, #ffe0ec, #f7f7f7);
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.poster-box {
+  background: white;
+  padding: 60px 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  animation: fadeUp 1.5s ease-out;
+  transition: transform 0.3s;
+}
+
+.poster-box:hover {
+  transform: translateY(-5px);
+}
+
+.poster-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.poster-subtext {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.poster-btn {
+  background-color: #ff4081;
+  padding: 12px 30px;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.poster-btn:hover {
+  background-color: #c2185b;
+  transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.bounce-animate {
+  animation: bounce 2s infinite;
+}
+
+.neon-text {
+  color: #ff4081;
+  text-shadow: 0 0 8px rgba(255, 64, 129, 0.5);
+}
+
+.flicker-text {
+  animation: flicker 3s infinite;
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  45% { opacity: 0.6; }
+  60% { opacity: 0.8; }
+  75% { opacity: 0.5; }
+}
+
+
+.breadcrumb-wrapper {
+  background: linear-gradient(90deg, #fff0f6, #ffe6f0);
+  padding: 20px 0;
+  animation: fadeSlideDown 1s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.animated-breadcrumb {
+  background: transparent;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.animated-breadcrumb .breadcrumb-item {
+  color: #d63384;
+  transition: color 0.3s ease;
+}
+
+.animated-breadcrumb .breadcrumb-item:hover {
+  color: #a61e4d;
+}
+
+.animated-breadcrumb .breadcrumb-item.active {
+  color: #6c757d;
+}
+
+@keyframes fadeSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 0.5s ease-in-out;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.5s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-in;
+}
+
+.cart-card-animate {
+  animation: bounce 0.5s ease-in-out;
+}
