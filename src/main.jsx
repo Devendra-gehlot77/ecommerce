@@ -14,7 +14,7 @@ import WishLisht from './components/WishLisht'
 import LoginRegister from './components/LoginRegister'
 import DealsPage from './components/DealsPage'
 import ContactPage from './components/HelpPages/ContactPage'
-import ShippingPolicy from './components/HelpPages/shippingPolicy'
+import ShippingPolicy from './components/HelpPages/ShippingPolicy'
 import ReturnExchange from './components/HelpPages/ReturnExchange'
 import Faq from './components/HelpPages/Faq'
 
